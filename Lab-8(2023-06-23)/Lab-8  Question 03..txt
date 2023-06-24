@@ -1,0 +1,60 @@
+Question 03.
+
+<html>
+    <head>
+        <title>Hello</title>
+    </head>
+    <body>
+        <button onmouseover="red()" onmouseout="white()">Red</button>
+        <br><br>
+        <button onmouseover="green()" onmouseout="white()">Green</button>
+        <br><br>
+        <button onmouseover="blue()" onmouseout="white()">Blue</button>
+        <br><br>
+    </body>
+    <script>
+        function red()
+        {
+            //document.body.style.backgroundColor="red";
+            document.bgColor="red";
+        }
+        function green()
+        {
+            document.bgColor="green";
+        }
+        function blue()
+        {
+            document.bgColor="blue";
+        }
+        function white()
+        {
+            document.bgColor="white";
+        }
+    </script>
+</html>
+
+
+Question 03
+
+
+<html>
+    <head>
+        <title>Hello</title>
+    </head>
+    <body>
+        <button onmouseover="changeColor('red')" onmouseout="changeColor('blue')">Red</button>
+        <br><br>
+        <button onmouseover="changeColor('green')" onmouseout="changeColor('red')">Green</button>
+        <br><br>
+        <button onmouseover="changeColor('blue')" onmouseout="changeColor('green')">Blue</button>
+        <br><br>
+    </body>
+    <script>
+        function changeColor(color)
+        {
+            document.bgColor=color;
+        }
+        
+    </script>
+</html>
+
